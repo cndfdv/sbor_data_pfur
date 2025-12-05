@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: yolo11n.pt
-data: /Users/arsknz/osnov/code/sbor_data/lab_7/dataset_split/data.yaml
+model: /home/usr4/Arsenii/sbor_data_pfur/lab_7/yolo11n.pt
+data: /home/usr4/Arsenii/sbor_data_pfur/lab_7/dataset_split/data.yaml
 epochs: 50
 time: null
 patience: 10
@@ -10,9 +10,9 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: cpu
+device: '0'
 workers: 8
-project: /Users/arsknz/osnov/code/sbor_data/lab_7/runs
+project: /home/usr4/Arsenii/sbor_data_pfur/lab_7/runs
 name: yolov11_original2
 exist_ok: false
 pretrained: true
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /Users/arsknz/osnov/code/sbor_data/lab_7/runs/yolov11_original2
+save_dir: /home/usr4/Arsenii/sbor_data_pfur/lab_7/runs/yolov11_original2
