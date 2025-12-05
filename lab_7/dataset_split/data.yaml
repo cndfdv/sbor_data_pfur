@@ -1,0 +1,7 @@
+names:
+- fruit
+nc: 1
+path: /Users/arsknz/osnov/code/sbor_data/lab_7/dataset_split
+test: test/images
+train: train/images
+val: val/images
