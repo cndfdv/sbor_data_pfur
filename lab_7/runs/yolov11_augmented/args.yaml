@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolo11n.pt
+model: /home/usr4/Arsenii/sbor_data_pfur/lab_7/yolo11n.pt
 data: /home/usr4/Arsenii/sbor_data_pfur/lab_7/dataset_augmented/data.yaml
 epochs: 50
 time: null
@@ -17,7 +17,7 @@ name: yolov11_augmented
 exist_ok: false
 pretrained: true
 optimizer: auto
-verbose: true
+verbose: false
 seed: 0
 deterministic: true
 single_cls: false
